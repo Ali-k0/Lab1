@@ -1,0 +1,130 @@
+
+y {
+    overflow-x: auto; 
+}
+.head{
+    background-color: #62517a5f; 
+    padding: 20px;
+}
+h1 {
+    font-family: "Rastanty Cortez", cursive, sans-serif; 
+    background: linear-gradient(45deg, #c289e3, #25002d, #e786ff35); 
+    -webkit-background-clip: text;
+    color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #16002b;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(206, 188, 188);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.a1 {
+    margin-left: 850px;
+}
+li a:hover {
+    text-shadow: 0 0 20px rgb(255, 255, 255); 
+    font-size: 17px; 
+}
+h2 {
+    position: absolute;
+    left: 20px;
+    right: 910px;
+    top: 500px;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(188, 81, 255); 
+}
+h2:hover {
+    text-shadow: 0 0 20px rgb(123, 90, 134); 
+
+}
+.img1 {
+    width: 100%;
+    max-width: 900px; 
+    height: auto; 
+    margin: 20px 0; 
+    position: absolute;
+    right: 10px;
+    top: 160px;
+    
+}
+
+
+#image-container {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    left: 100px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 50px;
+}
+
+.image-item {
+    position: relative;
+    top:100px;  
+}
+
+.image-item img {
+    max-width: 200px;
+    height: 200px;
+
+}
+.image-item pimg{
+    display: block; 
+    margin: 0 left; 
+    margin-top: 30px;   
+
+}
+.image-item input {
+    width: 180px; 
+    display: block; 
+    margin: 0 left; 
+    margin-top: 5px;   
+
+   }
+
+.image-item button {
+    background-color: #7116726c;
+    color: white;
+    padding: 10px 80px;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 10px;   
+}
+
+.image-item button:hover {
+    background-color: #160021e8;
+}
+.myDiv {
+    margin-top: 30px;
+    border: 5px outset #160021e8;
+    background-color: rgba(231, 231, 231, 0.644);
+    width: 300px;
+    height: 800px ;
+    margin-left: 932px;
+     
+    text-align: center;
+  }
+.container{
+    background-color: rgba(231, 231, 231, 0.644);
+}
